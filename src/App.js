@@ -61,7 +61,7 @@ export default function App() {
     if (!resumeText) return;
     setAnalyzing(true);
     try {
-      const res = await fetch("http://https://job-hunt-dashboard-1x6t.onrender.com/api/jobs/resume", {
+      const res = await fetch("https://job-hunt-dashboard-1x6t.onrender.com/api/jobs/resume", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ resume_text: resumeText })
