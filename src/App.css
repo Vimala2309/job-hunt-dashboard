@@ -1,12 +1,12 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
-  background: #010b13;
+  background: #0a1628;
   color: #e0e0e0;
   font-family: sans-serif;
   background-image:
-    radial-gradient(ellipse at 20% 50%, #0a1628 0%, transparent 50%),
-    radial-gradient(ellipse at 80% 20%, #001833 0%, transparent 50%);
+    radial-gradient(ellipse at 20% 50%, #0d1f3c 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, #051020 0%, transparent 50%);
 }
 
 .container { max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem; }
@@ -120,7 +120,7 @@ body {
 }
 .apply-btn:hover {
   background: #00d4ff;
-  color: #010b13;
+  color: #0a1628;
   box-shadow: 0 0 15px #00d4ff66;
 }
 
